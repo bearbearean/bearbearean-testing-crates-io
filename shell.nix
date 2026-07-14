@@ -9,5 +9,6 @@ pkgs.mkShell rec {
     rustup-toolchain
     cargo-make
     release-plz
+    gh
   ];
 }
