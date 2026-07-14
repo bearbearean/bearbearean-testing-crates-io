@@ -1,0 +1,8 @@
+# direnv files
+/.direnv
+
+# Nix build files
+/result
+
+# Cargo build files
+/target
