@@ -8,5 +8,6 @@ pkgs.mkShell rec {
   packages = with pkgs; [
     rustup-toolchain
     cargo-make
+    release-plz
   ];
 }
