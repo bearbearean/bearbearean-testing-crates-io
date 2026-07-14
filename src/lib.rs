@@ -1,5 +1,7 @@
 //! # bearbearean-testing-crates-io
 
+use rand::prelude::*;
+
 /// Example struct
 pub struct Example {
     /// A field of the struct
@@ -32,6 +34,12 @@ impl Example {
             private_field: self.private_field * 3,
         }
     }
+
+    /// Generate a random positive number starting from 1
+    pub fn positive_random() -> i64 {
+        let mut rng = rand::rng();
+        rng.random_range(1..i64::MAX)
+    }
 }
 
 /// Test `Example` functionality
@@ -48,4 +56,7 @@ fn test_example() {
     let tripled = doubled.triple();
     assert_eq!(tripled.field, 6);
     assert_eq!(tripled.private_field, 12);
+
+    let random = Example::positive_random();
+    assert!(random > 0, "random: {}", random);
 }
