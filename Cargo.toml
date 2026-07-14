@@ -1,7 +1,10 @@
 [package]
 name = "bearbearean-testing-crates-io"
-version = "0.1.0"
+description = "bearbearean testing things with crates.io"
+repository = "https://github.com/bearbearean/bearbearean-testing-crates-io"
+license = "MIT"
 edition = "2024"
+version = "0.1.0"
 
 [lints]
 rust.missing_docs = "warn"
