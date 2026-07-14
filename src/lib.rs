@@ -24,6 +24,14 @@ impl Example {
             private_field: self.private_field * 2,
         }
     }
+
+    /// Triple the [`Example::field`]
+    pub fn triple(self) -> Self {
+        Self {
+            field: self.field * 3,
+            private_field: self.private_field * 3,
+        }
+    }
 }
 
 /// Test `Example` functionality
@@ -36,4 +44,8 @@ fn test_example() {
     let doubled = example.double();
     assert_eq!(doubled.field, 2);
     assert_eq!(doubled.private_field, 4);
+
+    let tripled = doubled.triple();
+    assert_eq!(tripled.field, 6);
+    assert_eq!(tripled.private_field, 12);
 }
