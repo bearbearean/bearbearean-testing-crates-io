@@ -10,6 +10,8 @@ jobs:
     name: Release-plz release
     runs-on: ubuntu-latest
     if: ${{ github.repository_owner == 'bearbearean' }}
+    environment:
+      name: publishing
     permissions:
       contents: write
       id-token: write
