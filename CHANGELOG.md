@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.2.0](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.1.6...v0.2.0) - 2026-08-16
+
+### Added
+
+- [**breaking**] Switch from library to binary, to test releasing binaries.
+
 ## [0.1.6](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.1.5...v0.1.6) - 2026-08-16
 
 ### Other
