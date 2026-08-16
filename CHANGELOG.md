@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.1.6](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.1.5...v0.1.6) - 2026-08-16
+
+### Other
+
+- *(actions)* Use the correct project name...
+
 ## [0.1.5](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.1.4...v0.1.5) - 2026-08-16
 
 ### Other
