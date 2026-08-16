@@ -2,6 +2,11 @@
 
 use rand::prelude::*;
 
+/// The main function
+pub fn main() {
+    println!("bearbearean-testing-crates-io");
+}
+
 /// Example struct
 pub struct Example {
     /// A field of the struct
