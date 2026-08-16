@@ -17,7 +17,7 @@ env:
 jobs:
   upload-binary:
     name: ${{ matrix.target }}
-    if: github.repository_owner == 'bearbearean' && startsWith(github.event.release.name, 'nbsp')
+    if: github.repository_owner == 'bearbearean'
     runs-on: ${{ matrix.os }}
     permissions:
       contents: write
