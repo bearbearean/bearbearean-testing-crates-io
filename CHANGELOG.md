@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.1.5](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.1.4...v0.1.5) - 2026-08-16
+
+### Other
+
+- *(actions)* Fix release binary being skipped, possibly.
+
 ## [0.1.4](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.1.3...v0.1.4) - 2026-08-16
 
 ### Other
