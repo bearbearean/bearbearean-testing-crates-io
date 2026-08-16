@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.2.1](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.2.0...v0.2.1) - 2026-08-16
+
+### Other
+
+- *(actions)* Build with musl to possibly get a statically linked binary.
+
 ## [0.2.0](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.1.6...v0.2.0) - 2026-08-16
 
 ### Added
