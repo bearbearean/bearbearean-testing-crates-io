@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [0.2.2](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.2.1...v0.2.2) - 2026-08-16
+
+### Other
+
+- *(dev)* add a cargo-make task to install the git hooks
+- *(dev)* add commitlint and a commit-msg git hook for it
+
 ## [0.2.1](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.2.0...v0.2.1) - 2026-08-16
 
 ### Other
