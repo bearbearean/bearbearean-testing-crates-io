@@ -1,0 +1,2 @@
+[tasks.install-git-hooks]
+script = "cp .git-hooks/* .git/hooks/"
