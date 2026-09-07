@@ -1,0 +1,18 @@
+name: User Story
+description: Create a new issue with a user story structure
+assignees:
+  - bearbearean
+body:
+  - type: dropdown
+    attributes:
+      label: "**As a**"
+      options: [user, admin, developer, "[other]"]
+      default: 0
+  - type: textarea
+    attributes:
+      label: "**I want**"
+      placeholder: "to be able to make pancakes."
+  - type: textarea
+    attributes:
+      label: "**So that**"
+      placeholder: "I can have a nice breakfast."
