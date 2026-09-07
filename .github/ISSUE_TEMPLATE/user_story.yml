@@ -5,17 +5,17 @@ assignees:
 body:
   - type: dropdown
     attributes:
-      label: As a
+      label: As a [role]
       description: Identify who this story is for
       options: [user, admin, developer, "[other]"]
       default: 0
   - type: textarea
     attributes:
-      label: I want
+      label: I want [purpose]
       description: Describe what this story is about
-      placeholder: "to be able to make pancakes."
+      placeholder: I want to be able to make pancakes.
   - type: textarea
     attributes:
-      label: So that
+      label: So that [reason]
       description: Motivate why this story is relevant
-      placeholder: "I can have a nice breakfast."
+      placeholder: So that I can have a nice breakfast.
