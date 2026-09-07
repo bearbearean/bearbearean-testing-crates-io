@@ -2,6 +2,21 @@
 
 ## [Unreleased]
 
+## [0.2.3](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.2.2...v0.2.3) - 2026-09-07
+
+### Added
+
+- testing issue forms
+
+### Other
+
+- issue form
+- add descriptions to issue form
+- remove bold from issue form
+- update actions/depepdency-review-action
+- update actions/checkout
+- testing dependency review workflow
+
 ## [0.2.2](https://github.com/bearbearean/bearbearean-testing-crates-io/compare/v0.2.1...v0.2.2) - 2026-08-16
 
 ### Other
